@@ -1,4 +1,6 @@
+/*
 const withTM = require("next-transpile-modules")(["ui", "@components/fancytext"]);
+*/
 
 module.exports = {
   reactStrictMode: true,
@@ -8,13 +10,13 @@ module.exports = {
       // Transform all direct `react-native` imports to `react-native-web`
       "react-native$": "react-native-web",
     };
-    config.resolve.extensions = [
+    /*config.resolve.extensions = [
       ".web.js",
       ".web.jsx",
       ".web.ts",
       ".web.tsx",
       ...config.resolve.extensions,
-    ];
+    ];*/
     return config;
   },
 };

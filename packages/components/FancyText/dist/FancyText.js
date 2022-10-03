@@ -27,7 +27,7 @@ var import_jsx_runtime = require("react/jsx-runtime");
 function FancyText({ text }) {
   return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
     children: [
-      "Im WEB!!! ",
+      "i am WEB!!! ",
       text
     ]
   });

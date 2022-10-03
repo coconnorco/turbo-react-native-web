@@ -6,7 +6,7 @@ export default function Web() {
     <div>
       <h1>Website</h1>
       <Button text="howdy" />
-        <FancyText text='there partner!' />
+        <FancyText text='there partner' />
     </div>
   );
 }

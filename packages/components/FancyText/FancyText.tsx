@@ -4,7 +4,7 @@ import { FancyProps } from "./type";
 
 export function FancyText({ text }: FancyProps) {
     return (
-            <h1>Im WEB!!! {text}</h1>
+            <h1>i am WEB!!! {text}</h1>
     );
 }
 

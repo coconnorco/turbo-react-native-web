@@ -47,7 +47,7 @@ var styles = import_react_native.StyleSheet.create({
     paddingLeft: 30,
     paddingRight: 30,
     fontSize: "15px",
-    backgroundColor: "#2f80ed"
+    backgroundColor: "red"
   },
   text: {
     color: "white"
