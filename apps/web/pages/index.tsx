@@ -1,10 +1,12 @@
-import { Button } from "ui";
+import {Button} from "ui";
+import {FancyText} from "@components/fancytext";
 
 export default function Web() {
   return (
     <div>
-      <h1>Web</h1>
-      <Button />
+      <h1>Website</h1>
+      <Button text="howdy" />
+        <FancyText text='there partner!' />
     </div>
   );
 }
