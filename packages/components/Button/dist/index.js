@@ -18,11 +18,11 @@ var __copyProps = (to, from, except, desc) => {
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
 // index.tsx
-var ui_exports = {};
-__export(ui_exports, {
+var Button_exports = {};
+__export(Button_exports, {
   Button: () => Button
 });
-module.exports = __toCommonJS(ui_exports);
+module.exports = __toCommonJS(Button_exports);
 
 // Button.tsx
 var import_react_native = require("react-native");

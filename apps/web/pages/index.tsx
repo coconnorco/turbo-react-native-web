@@ -1,4 +1,4 @@
-import {Button} from "ui";
+import {Button} from "@components/button";
 import {FancyText} from "@components/fancytext";
 
 export default function Web() {
