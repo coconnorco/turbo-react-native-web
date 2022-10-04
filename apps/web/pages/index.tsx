@@ -1,5 +1,5 @@
-import {Button} from "@components/button";
-import {FancyText} from "@components/fancytext";
+import {Button} from "@coconnorco/turboui-button";
+import {FancyText} from "@coconnorco/turboui-fancytext";
 
 export default function Web() {
   return (

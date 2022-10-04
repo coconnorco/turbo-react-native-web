@@ -1,5 +1,5 @@
 {
-  "name": "@components/fancytext",
+  "name": "@coconnorco/turboui-fancytext",
   "version": "0.0.0",
   "main":"./dist/FancyText",
   "types": "./dist/FancyText.d.ts",
