@@ -25,7 +25,7 @@ var styles = StyleSheet.create({
     paddingLeft: 30,
     paddingRight: 30,
     fontSize: "15px",
-    backgroundColor: "red"
+    backgroundColor: "blue"
   },
   text: {
     color: "white"

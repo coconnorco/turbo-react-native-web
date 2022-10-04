@@ -9,6 +9,9 @@
     "dev": "node_modules/.bin/tsup index.tsx --format esm,cjs --watch --dts --external react",
     "clean": "rm -rf dist"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",

@@ -1,7 +1,6 @@
 {
   "name": "turbo-react-native-web",
   "version": "0.0.0",
-  "private": true,
   "scope": "coconnorco",
   "workspaces": [
     "apps/*",
@@ -13,7 +12,7 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
+    "publish-packages": "turbo run build && changeset version && changeset publish"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
@@ -22,6 +21,9 @@
   },
   "engines": {
     "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@changesets/cli": "^2.25.0"
